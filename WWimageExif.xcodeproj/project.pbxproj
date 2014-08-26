@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AB14FE319A7337C002B6CCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB14FE219A7337C002B6CCB /* Foundation.framework */; };
+		4AB14FE519A7337C002B6CCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB14FE419A7337C002B6CCB /* CoreGraphics.framework */; };
+		4AB14FE719A7337C002B6CCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB14FE619A7337C002B6CCB /* UIKit.framework */; };
+		4AB14FED19A7337C002B6CCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AB14FEB19A7337C002B6CCB /* InfoPlist.strings */; };
+		4AB14FEF19A7337C002B6CCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB14FEE19A7337C002B6CCB /* main.m */; };
+		4AB14FF319A7337C002B6CCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB14FF219A7337C002B6CCB /* AppDelegate.m */; };
+		4AB14FF519A7337C002B6CCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AB14FF419A7337C002B6CCB /* Images.xcassets */; };
+		4AB14FFC19A7337C002B6CCB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB14FFB19A7337C002B6CCB /* XCTest.framework */; };
+		4AB14FFD19A7337C002B6CCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB14FE219A7337C002B6CCB /* Foundation.framework */; };
+		4AB14FFE19A7337C002B6CCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB14FE619A7337C002B6CCB /* UIKit.framework */; };
+		4AB1500619A7337C002B6CCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AB1500419A7337C002B6CCB /* InfoPlist.strings */; };
+		4AB1500819A7337C002B6CCB /* WWimageExifTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB1500719A7337C002B6CCB /* WWimageExifTests.m */; };
+		4AB1501419A73406002B6CCB /* WWimageExitInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB1501319A73406002B6CCB /* WWimageExitInfo.m */; };
+		4AB1501819A737FB002B6CCB /* IMG_0176.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AB1501719A737FB002B6CCB /* IMG_0176.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AB14FFF19A7337C002B6CCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AB14FD719A7337C002B6CCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AB14FDE19A7337C002B6CCB;
+			remoteInfo = WWimageExif;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AB14FDF19A7337C002B6CCB /* WWimageExif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWimageExif.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB14FE219A7337C002B6CCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4AB14FE419A7337C002B6CCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4AB14FE619A7337C002B6CCB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4AB14FEA19A7337C002B6CCB /* WWimageExif-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WWimageExif-Info.plist"; sourceTree = "<group>"; };
+		4AB14FEC19A7337C002B6CCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4AB14FEE19A7337C002B6CCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AB14FF019A7337C002B6CCB /* WWimageExif-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WWimageExif-Prefix.pch"; sourceTree = "<group>"; };
+		4AB14FF119A7337C002B6CCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AB14FF219A7337C002B6CCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AB14FF419A7337C002B6CCB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4AB14FFA19A7337C002B6CCB /* WWimageExifTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWimageExifTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB14FFB19A7337C002B6CCB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4AB1500319A7337C002B6CCB /* WWimageExifTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WWimageExifTests-Info.plist"; sourceTree = "<group>"; };
+		4AB1500519A7337C002B6CCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4AB1500719A7337C002B6CCB /* WWimageExifTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWimageExifTests.m; sourceTree = "<group>"; };
+		4AB1501219A73406002B6CCB /* WWimageExitInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWimageExitInfo.h; sourceTree = "<group>"; };
+		4AB1501319A73406002B6CCB /* WWimageExitInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWimageExitInfo.m; sourceTree = "<group>"; };
+		4AB1501719A737FB002B6CCB /* IMG_0176.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0176.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AB14FDC19A7337C002B6CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB14FE519A7337C002B6CCB /* CoreGraphics.framework in Frameworks */,
+				4AB14FE719A7337C002B6CCB /* UIKit.framework in Frameworks */,
+				4AB14FE319A7337C002B6CCB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB14FF719A7337C002B6CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB14FFC19A7337C002B6CCB /* XCTest.framework in Frameworks */,
+				4AB14FFE19A7337C002B6CCB /* UIKit.framework in Frameworks */,
+				4AB14FFD19A7337C002B6CCB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AB14FD619A7337C002B6CCB = {
+			isa = PBXGroup;
+			children = (
+				4AB1501119A733C9002B6CCB /* WWimageExifClass */,
+				4AB14FE819A7337C002B6CCB /* WWimageExif */,
+				4AB1500119A7337C002B6CCB /* WWimageExifTests */,
+				4AB14FE119A7337C002B6CCB /* Frameworks */,
+				4AB14FE019A7337C002B6CCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AB14FE019A7337C002B6CCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AB14FDF19A7337C002B6CCB /* WWimageExif.app */,
+				4AB14FFA19A7337C002B6CCB /* WWimageExifTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AB14FE119A7337C002B6CCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AB14FE219A7337C002B6CCB /* Foundation.framework */,
+				4AB14FE419A7337C002B6CCB /* CoreGraphics.framework */,
+				4AB14FE619A7337C002B6CCB /* UIKit.framework */,
+				4AB14FFB19A7337C002B6CCB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AB14FE819A7337C002B6CCB /* WWimageExif */ = {
+			isa = PBXGroup;
+			children = (
+				4AB14FF119A7337C002B6CCB /* AppDelegate.h */,
+				4AB14FF219A7337C002B6CCB /* AppDelegate.m */,
+				4AB14FE919A7337C002B6CCB /* Supporting Files */,
+				4AB14FF419A7337C002B6CCB /* Images.xcassets */,
+			);
+			path = WWimageExif;
+			sourceTree = "<group>";
+		};
+		4AB14FE919A7337C002B6CCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AB14FEA19A7337C002B6CCB /* WWimageExif-Info.plist */,
+				4AB14FEB19A7337C002B6CCB /* InfoPlist.strings */,
+				4AB14FEE19A7337C002B6CCB /* main.m */,
+				4AB14FF019A7337C002B6CCB /* WWimageExif-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AB1500119A7337C002B6CCB /* WWimageExifTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AB1500719A7337C002B6CCB /* WWimageExifTests.m */,
+				4AB1500219A7337C002B6CCB /* Supporting Files */,
+			);
+			path = WWimageExifTests;
+			sourceTree = "<group>";
+		};
+		4AB1500219A7337C002B6CCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AB1500319A7337C002B6CCB /* WWimageExifTests-Info.plist */,
+				4AB1500419A7337C002B6CCB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AB1501119A733C9002B6CCB /* WWimageExifClass */ = {
+			isa = PBXGroup;
+			children = (
+				4AB1501719A737FB002B6CCB /* IMG_0176.jpg */,
+				4AB1501219A73406002B6CCB /* WWimageExitInfo.h */,
+				4AB1501319A73406002B6CCB /* WWimageExitInfo.m */,
+			);
+			path = WWimageExifClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AB14FDE19A7337C002B6CCB /* WWimageExif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AB1500B19A7337C002B6CCB /* Build configuration list for PBXNativeTarget "WWimageExif" */;
+			buildPhases = (
+				4AB14FDB19A7337C002B6CCB /* Sources */,
+				4AB14FDC19A7337C002B6CCB /* Frameworks */,
+				4AB14FDD19A7337C002B6CCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WWimageExif;
+			productName = WWimageExif;
+			productReference = 4AB14FDF19A7337C002B6CCB /* WWimageExif.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AB14FF919A7337C002B6CCB /* WWimageExifTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AB1500E19A7337C002B6CCB /* Build configuration list for PBXNativeTarget "WWimageExifTests" */;
+			buildPhases = (
+				4AB14FF619A7337C002B6CCB /* Sources */,
+				4AB14FF719A7337C002B6CCB /* Frameworks */,
+				4AB14FF819A7337C002B6CCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AB1500019A7337C002B6CCB /* PBXTargetDependency */,
+			);
+			name = WWimageExifTests;
+			productName = WWimageExifTests;
+			productReference = 4AB14FFA19A7337C002B6CCB /* WWimageExifTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AB14FD719A7337C002B6CCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = wangwei;
+				TargetAttributes = {
+					4AB14FF919A7337C002B6CCB = {
+						TestTargetID = 4AB14FDE19A7337C002B6CCB;
+					};
+				};
+			};
+			buildConfigurationList = 4AB14FDA19A7337C002B6CCB /* Build configuration list for PBXProject "WWimageExif" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4AB14FD619A7337C002B6CCB;
+			productRefGroup = 4AB14FE019A7337C002B6CCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AB14FDE19A7337C002B6CCB /* WWimageExif */,
+				4AB14FF919A7337C002B6CCB /* WWimageExifTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AB14FDD19A7337C002B6CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB14FED19A7337C002B6CCB /* InfoPlist.strings in Resources */,
+				4AB1501819A737FB002B6CCB /* IMG_0176.jpg in Resources */,
+				4AB14FF519A7337C002B6CCB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB14FF819A7337C002B6CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB1500619A7337C002B6CCB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AB14FDB19A7337C002B6CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB14FF319A7337C002B6CCB /* AppDelegate.m in Sources */,
+				4AB14FEF19A7337C002B6CCB /* main.m in Sources */,
+				4AB1501419A73406002B6CCB /* WWimageExitInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB14FF619A7337C002B6CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB1500819A7337C002B6CCB /* WWimageExifTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AB1500019A7337C002B6CCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AB14FDE19A7337C002B6CCB /* WWimageExif */;
+			targetProxy = 4AB14FFF19A7337C002B6CCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AB14FEB19A7337C002B6CCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AB14FEC19A7337C002B6CCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4AB1500419A7337C002B6CCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AB1500519A7337C002B6CCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AB1500919A7337C002B6CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AB1500A19A7337C002B6CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AB1500C19A7337C002B6CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WWimageExif/WWimageExif-Prefix.pch";
+				INFOPLIST_FILE = "WWimageExif/WWimageExif-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4AB1500D19A7337C002B6CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WWimageExif/WWimageExif-Prefix.pch";
+				INFOPLIST_FILE = "WWimageExif/WWimageExif-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4AB1500F19A7337C002B6CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WWimageExif.app/WWimageExif";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WWimageExif/WWimageExif-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WWimageExifTests/WWimageExifTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4AB1501019A7337C002B6CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WWimageExif.app/WWimageExif";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WWimageExif/WWimageExif-Prefix.pch";
+				INFOPLIST_FILE = "WWimageExifTests/WWimageExifTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AB14FDA19A7337C002B6CCB /* Build configuration list for PBXProject "WWimageExif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB1500919A7337C002B6CCB /* Debug */,
+				4AB1500A19A7337C002B6CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AB1500B19A7337C002B6CCB /* Build configuration list for PBXNativeTarget "WWimageExif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB1500C19A7337C002B6CCB /* Debug */,
+				4AB1500D19A7337C002B6CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4AB1500E19A7337C002B6CCB /* Build configuration list for PBXNativeTarget "WWimageExifTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB1500F19A7337C002B6CCB /* Debug */,
+				4AB1501019A7337C002B6CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AB14FD719A7337C002B6CCB /* Project object */;
+}
